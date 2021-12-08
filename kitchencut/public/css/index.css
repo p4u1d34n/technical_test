@@ -1,0 +1,31 @@
+#table, #table_two {
+    text-align: center;
+    border: 1pt solid grey;
+    margin-top: 20pt;
+}
+
+#table .row,#table_two .row {
+    margin: 0pt;
+}
+
+#table .row.head,  #table_two .row.head {
+    background: #121212 !important;
+    color: white;
+}
+
+#table .row::hover,  #table_two .row::hover {
+    background: #d2d2d2;
+}
+
+#table .row:nth-child(odd), #table_two .row:nth-child(odd) {
+    background: #c3c3c3
+}
+
+#table .row:nth-child(even), #table_two .row:nth-child(even) {
+    background: #CCC
+}
+
+.colview {
+    display: flex;
+    flex-direction: column;
+}
